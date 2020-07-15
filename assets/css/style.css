@@ -277,3 +277,7 @@ of the <span> text being  pushed out of the top of the progress bar */
     color: #FAFAFA;
     background-color: rgba(25, 25, 25, 0.2);
 }
+
+.progress-section {
+    margin: 40px 20px;
+}
