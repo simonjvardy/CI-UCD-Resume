@@ -1,45 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/*--------------------------------------------Colors*/
 
-/* -------------------------------------Colours */
 .bg-color-name-title {
     background-color: #676767;
 }
 
 .bg-color-three-reasons {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .bg-color-personal-info {
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
+}
+
+.bg-color-skills {
+    background-color: #ffffff;
 }
 
 .bg-color-work-history {
-    background-color: #9B59B6;
+    background-color: #9b59b6;
 }
 
 .bg-color-contact {
-    background-color: #fff;
+    background-color: #ffffff;
+}
+
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
 }
 
 .ui-menu-color-home {
-    background-color: #E67E22;
+    background-color: #e67e22;
 }
 
 .ui-menu-color-resume {
-    background-color: #9B59B6;
+    background-color: #9b59b6;
 }
 
 .ui-menu-color-contact {
-    background-color: #3498DB;
+    background-color: #3498db;
 }
 
 .ui-menu-color-download {
-    background-color: #525252;
+    background-color: #d9a81d;
 }
 
 
-/* -------------------------------------Special paddings/margins/text */
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/* ----------------------------------------Special paddings/margins/text */
 
 h1,
 h2,
@@ -55,7 +92,7 @@ h4 {
 .general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    color: #FAFAFA;
+    color: #fafafa;
 }
 
 .inline-block {
@@ -72,14 +109,16 @@ h4 {
     float: none;
 }
 
-.history-heading, .section-heading {
+.history-heading,
+.section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
 }
 
-/* -------------------------------------Heading */
+/*--------------------------------------------Heading*/
+
 header {
     margin: 0;
 }
@@ -124,13 +163,13 @@ header {
     font-size: 0;
 }
 
-#nav {
-    margin: 0;
-}
-
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 .menuitem {
@@ -142,7 +181,7 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #FFF;
+    color: #fff;
     height: 120px;
 }
 
@@ -164,25 +203,25 @@ header {
     letter-spacing: 2px;
 }
 
-/* -------------------------------------Hover.css */
+/*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
-/* -------------------------------------Footer */
+/* ----------------------------------------Footer */
 
 footer {
     background-color: #525252;
-    color: #FAFAFA;
+    color: #fafafa;
     min-height: 120px;
     margin: 0;
 }
 
 .cv-pdf i {
     font-size: 18px;
-    color: #FAFAFA;
+    color: #fafafa;
     text-align: center;
     padding-left: 5px;
     transition: all 0.35s ease-in-out;
@@ -192,11 +231,11 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #E84610;
+    color: #e84610;
 }
 
 .social-links {
-    scroll-padding-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .social-links li a i {
@@ -207,8 +246,8 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #FAFAFA;
-    background: #8F8F8F;
+    color: #fafafa;
+    background: #8f8f8f;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -216,25 +255,25 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #E84610;
+    background: #e84610;
 }
 
 #footer-details {
     padding: 20px;
 }
 
-/* -------------------------------------Special paddings/margins/text */
+/* ----------------------------------------Three Reasons */
 
 .three-reasons-icon {
     font-size: 26px;
-    color: #E67E22;
+    color: #e67e22;
 }
 
 .three-reasons-heading {
     margin-bottom: 15px;
 }
 
-/* -------------------------------------Personal Info */
+/* ----------------------------------------Personal Info */
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -242,12 +281,14 @@ footer {
     clear: both;
 }
 
-.personal-info-item .key, .personal-info-item .value {
+.personal-info-item .key,
+.personal-info-item .value {
     padding-right: 8px;
     display: inline-block;
 }
 
-.personal-info-item .key, .personal-info-item .value {
+.personal-info-item .key p,
+.personal-info-item .value p {
     margin: 0;
 }
 
@@ -267,15 +308,12 @@ footer {
     width: 60%;
 }
 
-/* -------------------------------------Skills */
+/* ----------------------------------------Skills */
 
 .progress {
     position: relative;
     height: 25px;
     margin-bottom: 4px;
-/* ---------Fix: Boostrap now has .progress {line-height:0;} implemented. This fixes the problem 
-of the <span> text being  pushed out of the top of the progress bar */
-    line-height: inherit;
 }
 
 .progress-type {
@@ -283,7 +321,7 @@ of the <span> text being  pushed out of the top of the progress bar */
     left: 0px;
     font-weight: 400;
     padding: 3px 30px 2px 10px;
-    color: #FAFAFA;
+    color: #fafafa;
     background-color: rgba(25, 25, 25, 0.2);
 }
 
@@ -291,17 +329,17 @@ of the <span> text being  pushed out of the top of the progress bar */
     margin: 40px 20px;
 }
 
-/* -------------------------------------Work History */
+/* ----------------------------------------Work History */
 
 .history-heading {
-    color: #FAFAFA;
+    color: #fafafa;
     margin-bottom: 50px;
 }
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: #FAFAFA;
+    color: #fafafa;
     border-left: 1px solid;
 }
 
@@ -332,20 +370,20 @@ of the <span> text being  pushed out of the top of the progress bar */
     left: -6px;
     border-radius: 12px;
     content: '';
-    background: #FAFAFA;
+    background: #fafafa;
 }
 
 .history-items {
     margin-bottom: 30px;
 }
 
-/* -------------------------------------Contact Form */
+/* ----------------------------------------Contact Form */
 
 .contact-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-    margin-block-end: 20px;
+    margin-bottom: 20px;
 }
 
 .center-form {
@@ -357,11 +395,11 @@ of the <span> text being  pushed out of the top of the progress bar */
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #FAFAFA;
-    background-color: #E84610;
+    color: #fafafa;
+    background-color: #e84610;
 }
 
-/* -------------------------------------Media Queries */
+/* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
     .center-form {
