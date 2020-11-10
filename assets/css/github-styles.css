@@ -160,6 +160,10 @@ img {
 
 /* input field */
 
+.center-form {
+    text-align: center;
+}
+
 #gh-username {
   display: block;
   padding: 5px 8px;
@@ -167,6 +171,12 @@ img {
   color: #666;
   max-width: 550px;
   margin-bottom: 15px;
+  margin: auto;
+}
+
+#gh-user-data {
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 #gh-submit {
