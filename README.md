@@ -1,7 +1,7 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
 
-# ![Logo](assets/images/resume-amiresponsive.png) #
+# ![Logo](assets/images/resume2-amiresponsive.png) #
 ***Resume Project** is a website created on the COde Institute Full Stack Software Developer level 5 Diploma course User-Centric Design modules.*
 *The objective is to create a User Resumé utilising User Centric Design principles focussing on agile development and mobile first design in HTML5 and CSS3 with Bootstrap css and Hover.css frameworks.*
 
